@@ -40,6 +40,15 @@ The n-Queens problem is a classic problem in computer science and artificial int
 solved using various algorithms and heuristics. It is a great way to test the efficiency of different algorithms and can be used to solve other similar problems. 
 The implementation of the n-Queens problem in Python is easy to understand and can be modified to suit the specific needs of the problem.
 
+## The function isSafe checks if it is safe to place a queen in a given position by checking the row, the upper diagonal and the lower diagonal. If it is safe to place a queen in a position, the code places a queen and then moves on to the next column and continues the process. If it is not possible to place a queen in a safe position in a given column, the code backtracks to the previous column and tries a different position.
+
+![part1](https://user-images.githubusercontent.com/91677608/213692589-734a7466-d37d-40b9-99ef-f136d487fe9d.png)
+
+## The function solveNqueen is recursive, it takes an additional parameter "count" which is a list with a single element(count[0]), it's used to keep track of the number of solutions found. Each time a solution is found, the count is incremented by 1. The function returns when all the queens are placed on the board without threatening each other.
+
+![part2](https://user-images.githubusercontent.com/91677608/213692920-3d1097c8-50da-4d25-b106-b599f416298f.png)
+
+
 
 ## Approach as a Data Scientist to 8-Queens problem:
 
