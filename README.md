@@ -1,20 +1,20 @@
 # n-queens-problem
 Solution to N-Queens Problem
 
-Introduction:
+## Introduction:
 
 The n-Queens problem is a classic problem in computer science and artificial intelligence, 
 which involves placing n queens on an nxn chess board in such a way that no two queens threaten each other. 
 The problem is a classic example of a "constraint satisfaction problem" and can be used to test the efficiency of various algorithms and 
 heuristics.
 
-Background:
+## Background:
 
 The n-Queens problem was first introduced in the 1800s as a puzzle. It gained popularity as a problem in computer science in the 1950s 
 when Martin Gardner featured it in his mathematical games column in Scientific American. 
 The problem has been studied and solved using various algorithms such as backtracking, genetic algorithms, and simulated annealing.
 
-Solution:
+## Solution:
 
 We have used backtracking algorithm to solve the n-Queens problem, which is a method that tries all possible solutions and 
 eliminates the ones that do not meet the constraints of the problem. 
@@ -22,26 +22,26 @@ The algorithm starts by placing a queen in the first column and then moving on t
 If it is not possible to place a queen in a safe position in a given column, the algorithm backtracks to the previous column and tries a different position. 
 The algorithm stops when all n queens have been placed on the board without threatening each other.
 
-Maximum solutions:
+## Maximum solutions:
 
 We have also implemented a method to find the maximum solutions to the n-Queens problem. 
 Maximum solutions means the solution with the highest number of distinct pairs of queens that are not attacking each other. 
 To find the maximum solutions, we have modified the solution algorithm to keep track of the number of safe pairs of queens in the board and
 store the highest number.
 
-Implementation:
+## Implementation:
 
 The n-Queens problem can be implemented in various programming languages, including Python. 
 The code is easy to understand and can be modified to suit the specific needs of the problem.
 
-Conclusion:
+## Conclusion:
 
 The n-Queens problem is a classic problem in computer science and artificial intelligence that has been studied and 
 solved using various algorithms and heuristics. It is a great way to test the efficiency of different algorithms and can be used to solve other similar problems. 
 The implementation of the n-Queens problem in Python is easy to understand and can be modified to suit the specific needs of the problem.
 
 
-Approach as a Data Scientist to 8-Queens problem:
+## Approach as a Data Scientist to 8-Queens problem:
 
 As a data scientist, one approach to solving the 8-Queens problem would be to use machine learning techniques to extract features from the problem and use them to train a model to predict the correct solution.
 Here are some steps that can be taken to extract features from the 8-Queens problem:
@@ -55,7 +55,7 @@ Here are some steps that can be taken to extract features from the 8-Queens prob
 By using machine learning techniques to extract features from the 8-Queens problem, a data scientist can use a variety of algorithms and models to find the optimal solution to the problem, and also can use the features to analyze different solutions and find patterns and trends in the data.
 
 
-Evidence of Statement:
+## Evidence of Statement:
 
 In the 8-Queens problem, the goal is to place 8 queens on a chess board in such a way that no two queens threaten each other. 
 Once a solution is found and all 8 queens are placed on the board without threatening each other, 
