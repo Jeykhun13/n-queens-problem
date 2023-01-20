@@ -1,4 +1,4 @@
-# n-queens-problem
+# N-queens problem
 Solution to N-Queens Problem
 
 ## Introduction:
